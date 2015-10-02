@@ -1,4 +1,4 @@
-# Nick's Flicks with AngularJS
+# Nick&rsquo;s Flicks with AngularJS
 
 ##### A web app that allows users to write movie reviews and read all the reviews. (10/2/15)
 
