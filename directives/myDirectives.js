@@ -1,7 +1,7 @@
-MovieReviews.directive("night", function() {
-  return function (scope, element) {
+MovieReviews.directive("changeClass", function() {
+  return function (scope, element, attrs) {
     element.bind("click", function() {
-      element.toggleClass("bg-danger");
+      element.toggleClass(attrs.changeClass);
     });
   }
 });
