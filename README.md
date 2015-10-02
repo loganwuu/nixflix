@@ -10,7 +10,7 @@ There are three view pages: welcome page where users enter the page and reviews 
 ## Setup
 * Clone the project using the link provided on Github in the Terminal by using ```git clone```.
 * If you are on a mac, use Terminal to type in ```python -m SimpleHTTPServer``` from the top level of the project folder.
-open browser to ```localhost:8000``` to view site.
+* open browser to ```localhost:8000``` to view the site.
 
 If you are on windows, download Mongoose, copy it to project folder, and double click it to launch a server and open your page in the browser.
 

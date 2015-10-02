@@ -25,4 +25,21 @@ MovieReviews.config(function($stateProvider, $urlRouterProvider) {
           },
         }
     });
+
+    $stateProvider.state('reviewComment', {
+    url: "/:reviewId",
+     views: {
+       'header': {
+         templateUrl: "partials/header.html"
+       },
+       'body': {
+         templateUrl: "partials/reviews.html",
+         controller: "ReviewsCtrl"
+       },
+       'text': {
+         templateUrl: "partials/reviewComment.html",
+         controller: "ReviewsCtrl"
+       }
+     }
+  });
 });
