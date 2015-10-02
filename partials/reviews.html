@@ -3,7 +3,7 @@
       <div class="col-md-4" ng-show="reviews.length">
           <ul>
             <li ng-repeat="item in reviews">
-              {{ item.name }}
+              <a ui-sref="reviews({ id: item.id })">{{ item.name }}</a>
             </li>
           </ul>
       </div>
@@ -25,3 +25,5 @@
           </form>
       </div>
   </div>
+
+  <div ui-view="body"></div>
