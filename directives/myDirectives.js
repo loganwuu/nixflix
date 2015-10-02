@@ -1,7 +1,7 @@
 MovieReviews.directive("changeClass", function() {
-  return function (scope, element, attrs) {
+  return function (scope, element) {
     element.bind("click", function() {
-      element.toggleClass(attrs.changeClass);
+      (".container").toggleClass(css("filter", "invert(100%)")
     });
   }
 });
