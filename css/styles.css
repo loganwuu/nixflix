@@ -18,3 +18,7 @@
 .toggle {
     text-align: right;
 }
+
+#initially-hidden {
+    display: none;
+}

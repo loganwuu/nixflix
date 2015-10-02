@@ -3,11 +3,11 @@ MovieReviews.factory('ReviewsFactory', function ReviewsFactory() {
     factory.reviews = [];
 
     factory.addReview = function() {
-        var review = ({ title: factory.reviewTitle, comment: factory.reviewComment, id: factory.reviews.length + 1});
+      var review = ({ title: factory.reviewTitle, comment: factory.reviewComment, id: factory.reviews.length + 1});
 
-        factory.reviews.push(review);
-        factory.reviewTitle = null;
-        factory.reviewComment = null;
+      factory.reviews.push(review);
+      factory.reviewTitle = null;
+      factory.reviewComment = null;
     };
 
     return factory;

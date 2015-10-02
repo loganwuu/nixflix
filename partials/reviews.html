@@ -3,14 +3,14 @@
     <div class="col-md-4" ng-show="reviews.length">
         <ul class="list-unstyled">
           <li ng-repeat="item in reviews">
-            <h4><a ui-sref="reviews({ id: item.id })">{{ item.title }}</a></h4>
+            <h4><a ui-sref="reviews.reviewComment({ reviewId: item.id })">{{ item.title }}</a></h4>
           </li>
         </ul>
     </div>
 
     <div class="col-md-8" ng-model="reviews">
       <!-- review content -->
-      <div ui-view="comment"></div>
+      <div ui-view="reviewComment"></div>
 
       <!-- review form -->
       <h2>Create New Movie Reviews</h2>
