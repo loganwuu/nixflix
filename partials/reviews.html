@@ -1,0 +1,29 @@
+<div ng-show="reviews.length">
+  <ul>
+    <li ng-repeat="item in reviews">
+      {{ item.name }}
+    </li>
+  </ul>
+  <div class="row">
+      <div class="col-md-4" ng-show="reviews.length">
+          <ul>
+            <li ng-repeat="item in reviews">
+              {{ item.name }}
+            </li>
+          </ul>
+      </div>
+
+      <div class="col-md-8">
+          <h2>Create New Movie Reviews</h2>
+          <form ng-submit="ReviewsFactory.addReview()" class="form-inline" role="form">
+            <div class="form-group">
+              <input type="text" ng-model="ReviewsFactory.reviewTitle" class="form-control" placeholder="Enter the title for your reivew here">
+            </div>
+            <div class="form-group">
+              <input type="text" ng-model="ReviewsFactory.reviewComment" class="form-control" placeholder="Enter your review">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+      </div>
+  </div>
+</div>
