@@ -1,16 +1,17 @@
   <div class="row">
     <!-- review titles section -->
       <div class="col-md-4" ng-show="reviews.length">
-          <ul>
+          <ul class="list-unstyled">
             <li ng-repeat="item in reviews">
-              <a ui-sref="reviews({ id: item.id })">{{ item.name }}</a>
+              <h4><a ui-sref="reviews({ id: item.id })">{{ item.title }}</a></h4>
             </li>
           </ul>
       </div>
 
       <div class="col-md-8">
         <!-- review content -->
-
+        <h2>{{ review.title }}</h2>
+        <p>{{ review.comment }}</p>
 
         <!-- review form -->
         <h2>Create New Movie Reviews</h2>
