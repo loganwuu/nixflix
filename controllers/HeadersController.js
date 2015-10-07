@@ -1,3 +1,3 @@
-MovieReviews.controller('HeadersCtrl', function HeadersCtrl($scope, $location) {
-  $scope.currentPath = $location.path();
+MovieReviews.controller('HeadersCtrl', function HeadersCtrl($location) {
+  this.currentPath = $location.path();
 });

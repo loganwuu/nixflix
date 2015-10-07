@@ -1,7 +1,10 @@
-MovieReviews.directive("changeClass", function() {
-  return function (scope, element) {
-    element.bind("click", function() {
-      (".container").toggleClass(css("filter", "invert(100%)"))
-    });
+MovieReviews.directive("nightMode", function() {
+  return {
+      restrict:"A",
+      link: function(scope,element,attrs) {
+          element.bind('cilck', function() {
+             angular.element(document.querySelector('#body-element')).toggleClass('nightmode'); 
+          });
+      }
   }
 });
