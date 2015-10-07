@@ -36,7 +36,7 @@ MovieReviews.config(function($stateProvider, $urlRouterProvider) {
          templateUrl: "partials/reviews.html",
          controller: "ReviewsCtrl"
        },
-       'text': {
+       'reviewComment': {
          templateUrl: "partials/reviewComment.html",
          controller: "ReviewsCtrl"
        }
