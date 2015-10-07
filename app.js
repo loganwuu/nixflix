@@ -26,20 +26,9 @@ MovieReviews.config(function($stateProvider, $urlRouterProvider) {
         }
     });
 
-    $stateProvider.state('reviewComment', {
-    url: "/:reviewId",
-     views: {
-       'header': {
-         templateUrl: "partials/header.html"
-       },
-       'body': {
-         templateUrl: "partials/reviews.html",
-         controller: "ReviewsCtrl"
-       },
-       'reviewComment': {
-         templateUrl: "partials/reviewComment.html",
-         controller: "ReviewsCtrl"
-       }
-     }
-  });
+    $stateProvider.state('reviews.comment', {
+        url: "/:reviewId",
+        templateUrl: "partials/review.comment.html",
+        controller: "ReviewsCtrl"
+    });
 });

@@ -3,7 +3,7 @@
     <div class="col-md-4" ng-show="reviews.length">
         <ul class="list-unstyled">
           <li ng-repeat="item in reviews">
-            <h4><a ui-sref="reviews.reviewComment({ reviewId: item.id })">{{ item.title }}</a></h4>
+            <h4><a ui-sref="reviews.comment({ reviewId: item.id })">{{ item.title }}</a></h4>
           </li>
         </ul>
     </div>
