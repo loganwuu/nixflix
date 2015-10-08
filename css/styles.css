@@ -3,7 +3,7 @@
 }*/
 
 .btn-xlarge {
-    padding: 12px 110px;
+    padding: 8px 55px;
     font-size: 20px;
     line-height: normal;
     -webkit-border-radius: 8px;
@@ -15,12 +15,11 @@
     background: #F8F8F8;
 }
 
-.toggle {
-    text-align: right;
-}
-
-#initially-hidden {
-    display: none;
+#jumbo {
+    background: #C0C0C0;
+    padding: 44px 40px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .nightmode {

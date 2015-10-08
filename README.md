@@ -5,7 +5,7 @@
 #### By Logan Wu
 
 ## Description
-There are three view pages: welcome page where users enter the page and reviews page where users read and submit reviews. A "night mode" is added which changes the entire site to a darker theme for readers at night.
+There are three view pages: welcome page where users enter the website where users can read and submit their movie reviews. A "night mode" is added which changes the entire site to a darker theme for reading at night.
 
 ## Setup
 * Clone the project using the link provided on Github in the Terminal by using ```git clone```.
