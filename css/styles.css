@@ -22,3 +22,8 @@
 #initially-hidden {
     display: none;
 }
+
+.nightmode {
+  background-color: #000;
+  color: #fff;
+}
