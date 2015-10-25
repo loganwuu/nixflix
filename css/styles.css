@@ -1,7 +1,14 @@
 /*body {
     padding-top: 70px;
 }*/
+#headline {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.5em;
+}
+.fa {
+  position: relative;
 
+}
 .btn-xlarge {
     padding: 8px 55px;
     font-size: 20px;
@@ -11,20 +18,26 @@
             border-radius: 8px;
 }
 
-.navbar {
+/*.navbar {
     background: #F8F8F8;
-}
+}*/
 
 #jumbo {
     background: #C0C0C0;
     padding: 44px 40px;
     border-radius: 5px;
+    margin-left: -10px;
+    margin-right: 14px;
     text-align: center;
     /*display: flex;*/
     justify-content: center;
     align-items: center;
 }
 
+h1 {
+  font-size: 3em;
+  margin-top: -10px;
+}
 .nightmode {
     background-color: #000;
     color: #fff;
