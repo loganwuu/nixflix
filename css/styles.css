@@ -20,6 +20,9 @@
     padding: 44px 40px;
     border-radius: 5px;
     text-align: center;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
 }
 
 .nightmode {
