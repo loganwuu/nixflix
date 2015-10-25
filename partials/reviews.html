@@ -1,0 +1,29 @@
+  <div class="row">
+    <!-- review titles section -->
+    <div class="col-md-4" ng-show="reviews.length">
+        <ul class="list-unstyled">
+          <li ng-repeat="item in reviews">
+            <h4><a ui-sref="reviews.comment({ reviewId: item.id })">{{ item.title }}</a></h4>
+          </li>
+        </ul>
+    </div>
+
+    <div class="col-md-8" ng-model="reviews">
+      <!-- review content -->
+      <div ui-view></div>
+
+      <!-- review form -->
+      <h2>Create New Movie Reviews</h2>
+        <form ng-submit="ReviewsFactory.addReview()" role="form">
+          <div class="form-group">
+            <input type="text" ng-model="ReviewsFactory.reviewTitle" class="form-control" placeholder="Enter a review title" required>
+          </div>
+          <div class="form-group">
+            <textarea type="text" ng-model="ReviewsFactory.reviewComment" class="form-control" placeholder="Enter your review" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+  </div>
+
+  <div ui-view="body"></div>
