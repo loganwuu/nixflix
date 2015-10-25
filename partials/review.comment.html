@@ -1,5 +1,10 @@
 <div ui-view>
-  <h2 id="title">Title: {{ currentReview.title }}</h2>
-  <p>Review: {{ currentReview.comment }}</p>
+  <h2 id="title">{{ currentReview.title }} Review</h2>
+  <p>By <strong>{{ currentReview.name }}</strong>, {{ currentReview.date }}</p>
+  <p>Comment:<br>
+    <div class="review">
+     {{ currentReview.comment }}
+    </div>
+  </p>
 </div>
 <hr>

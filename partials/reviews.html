@@ -18,14 +18,14 @@
         <form ng-submit="ReviewsFactory.addReview()" role="form">
           <div class="row form-group">
             <div class="col-md-12">
-              <input type="text" ng-model="ReviewsFactory.reviewReviewer" class="form-control" placeholder="Enter your name" required>
+              <input type="text" ng-model="ReviewsFactory.reviewName" class="form-control" placeholder="Enter your name" required>
             </div>
           </div>
 
           <div class="row form-group">
-            <div class="col-md-4">
+            <div class="col-md-3">
               <label for="date">Review Date:</label>
-              <input id="date" type="date" name="date" ng-model="ReviewsFactory.reviewDate" class="form-control" required>
+              <input type="date" name="date" ng-model="ReviewsFactory.reviewDate" class="form-control" required>
             </div>
           </div>
 
