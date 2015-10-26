@@ -2,7 +2,7 @@
     <!-- review titles section on left column-->
     <div class="col-md-4" ng-show="reviews.length">
         <ul class="list-unstyled">
-                                        <!-- set sorting to reverse aphabetically: 0-1, then a-z -->
+                                        <!-- set sorting to reverse aphabetically: first 0-1, then a-z -->
           <li ng-repeat="item in reviews | orderBy:'title' track by item.id">
             <h4><a ui-sref="reviews.comment({ reviewId: item.id })">{{ item.title }}</a></h4>
           </li>
@@ -25,7 +25,7 @@
           <div class="row form-group">
             <div class="col-md-4">
               <label for="date">Review Date:</label>
-              <input type="date" name="date" ng-model="ReviewsFactory.reviewDate" class="form-control" placeholder="mm/dd/yyyy" required>
+              <input type="date" name="date" ng-model="ReviewsFactory.reviewDate" class="datepicker" data-date-format="mm/dd/yyyy" placeholder="mm/dd/yyyy" required>
             </div>
           </div>
 
