@@ -28,7 +28,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <!-- bootstrap-datepicker -->
-    https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/css/bootstrap-datepicker.css
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/css/bootstrap-datepicker.css">
+    <script>
+      $.fn.datepicker.defaults.format = "mm/dd/yyyy";
+      $('.datepicker').datepicker({
+      startDate: '-3d'
+    })
+    </script>
     
     <!-- custom font -->
     <link href='https://fonts.googleapis.com/css?family=Titillium+Web:900' rel='stylesheet' type='text/css'>
