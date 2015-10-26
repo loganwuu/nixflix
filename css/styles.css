@@ -3,7 +3,9 @@
   font-size: 1.5em;
 }
 
-#headline:hover{
+#headline:hover,
+#headline:focus,
+#headline:active {
   text-decoration: none;
 }
 
