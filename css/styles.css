@@ -10,9 +10,9 @@
     padding: 10px 58px;
     font-size: 16px;
     line-height: normal;
-    -webkit-border-radius: 8px;
-       -moz-border-radius: 8px;
-            border-radius: 8px;
+   /* -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px; */
 }
 
 #jumbo {
