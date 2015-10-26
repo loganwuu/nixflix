@@ -3,6 +3,8 @@
   font-size: 1.5em;
 }
 
+a,
+a.active,
 #headline:hover,
 #headline:focus,
 #headline:active {
