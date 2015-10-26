@@ -16,7 +16,7 @@
 }
 
 #jumbo {
-    background: #C0C0C0;
+    background: #D8D8D8;
     padding: 44px 40px;
     border-radius: 5px;
     margin-left: -10px;
@@ -38,7 +38,7 @@ h1 {
 
 .review {
   color: grey;
-  background-color: #F8F8F8;
+  background-color: #F0F0F0;
   padding: 10px;
   border-radius: 2px;
 }
