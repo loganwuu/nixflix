@@ -1,4 +1,4 @@
-# Nick&rsquo;s Flicks with AngularJS
+# [NIXFLIX](http://loganwuu.github.io/nicksflicks) with AngularJS
 
 ##### A web app that allows users to write movie reviews and read all the reviews. (10/2/15)
 
