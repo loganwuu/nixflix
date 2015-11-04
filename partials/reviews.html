@@ -25,10 +25,15 @@
           <div class="row form-group">
             <div class="col-md-4">
               <label for="date">Review Date:</label>
-              <input type="date" name="date" ng-model="ReviewsFactory.reviewDate" class="form-control" placeholder="mm/dd/yyyy" required>
+              <input type="date" name="date" id="reviewDate" ng-model="ReviewsFactory.reviewDate" class="form-control" data-date-format="yyyy-mm-dd" required>
             </div>
+            <script type="text/javascript">
+              $(function() {
+                $('#reviewDate').datetimepicker();
+              });
+            </script>
           </div>
-
+          
           <div class="row form-group">
             <div class="col-md-12">
               <input type="text" ng-model="ReviewsFactory.reviewTitle" class="form-control" placeholder="Enter the movie title" required>
