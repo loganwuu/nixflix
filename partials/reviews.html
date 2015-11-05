@@ -25,8 +25,9 @@
           <div class="row form-group">
             <div class="col-md-4">
               <label for="date">Review Date:</label>
-              <input type="date" name="date" id="reviewDate" ng-model="ReviewsFactory.reviewDate" class="form-control" data-date-format="yyyy-mm-dd" required>
-            </div>
+              <div class='input-group date' id='reviewDate'>
+                <input type="text" ng-model="ReviewsFactory.reviewDate" class="form-control" data-date-format="yyyy-mm-dd" required>
+              </div>
             <script type="text/javascript">
               $(function() {
                 $('#reviewDate').datetimepicker();
