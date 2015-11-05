@@ -47,7 +47,8 @@ h1 {
 }
 
 .review {
-  color: grey;
+  color: #428bca;
+  text-shadow: .5px .5px .2px grey;
   background-color: #F0F0F0;
   padding: 10px;
   border-radius: 2px;
