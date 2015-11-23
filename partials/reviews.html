@@ -2,7 +2,7 @@
     <!-- review titles section on left column-->
     <div class="col-md-4" ng-show="reviews.length">
         <ul class="list-unstyled">
-                                        <!-- set sorting to reverse aphabetically: first 0-1, then a-z -->
+                                          <!-- set sorting to reverse aphabetically: first 0-1, then a-z -->
           <li ng-repeat="item in reviews | orderBy:'title' track by item.id">
             <h4><a ui-sref="reviews.comment({ reviewId: item.id })">{{ item.title }}</a></h4>
           </li>
