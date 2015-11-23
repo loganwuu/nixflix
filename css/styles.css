@@ -67,3 +67,7 @@ h1 {
 .btn.btn-primary {
     margin-bottom: 14px;
 }
+
+.text-muted {
+    text-align: center;
+}
