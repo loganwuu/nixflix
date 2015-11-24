@@ -71,3 +71,7 @@ h1 {
 .text-muted {
     text-align: center;
 }
+
+.small {
+    margin-top: -10px;
+}
